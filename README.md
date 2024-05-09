@@ -59,7 +59,7 @@ python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./dat
 ```
 
 ### Training and Evaluation
-We provide the multimodal 3D detection config in [isfusion_0075voxel.py](configs/isfusion_0075voxel.py). Start the training and evluation by running:
+We provide the multimodal 3D detection config in [isfusion_0075voxel.py](configs/isfusion/isfusion_0075voxel.py). Start the training and evluation by running:
 ```
 bash tools/run-nus.sh extra-tag
 ```
