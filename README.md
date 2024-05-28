@@ -59,7 +59,7 @@ python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./dat
 ```
 
 ### Training and Evaluation
-We provide the multimodal 3D detection config in [isfusion_0075voxel.py](configs/isfusion/isfusion_0075voxel.py). IS-FUSION features a two-stage training paradigm that only requires a pretrained image model, enabling faster convergence in just 10 epochs. This is more efficient than other multimodal detection approaches like BEVFusion, which typically require a three-stage training strategy (image model, Lidar model, and fusion model)。 Start the training and evluation by running:
+We provide the multimodal 3D detection config in [isfusion_0075voxel.py](configs/isfusion/isfusion_0075voxel.py). IS-FUSION features a two-stage training paradigm that only requires a pretrained image model, enabling faster convergence in just 10 epochs. This is more efficient than other multimodal detection approaches like BEVFusion, which typically require a three-stage training strategy (image model, Lidar model, and fusion model). Start the training and evluation by running:
 ```
 bash tools/run-nus.sh extra-tag
 ```
