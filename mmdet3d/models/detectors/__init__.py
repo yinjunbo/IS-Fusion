@@ -14,9 +14,6 @@ from .single_stage_mono3d import SingleStageMono3DDetector
 from .ssd3dnet import SSD3DNet
 from .votenet import VoteNet
 from .voxelnet import VoxelNet
-from .centerpoint_fusion import CenterPointFusion
-from .centerpoint_dv import CenterPointDV
-from .dynamic_voxelnet_img import DynamicMVNet
 from .transfusion import TransFusionDetector
 from .isfusion import ISFusionDetector
 
@@ -24,7 +21,6 @@ __all__ = [
     'Base3DDetector', 'VoxelNet', 'DynamicVoxelNet', 'MVXTwoStageDetector',
     'DynamicMVXFasterRCNN', 'MVXFasterRCNN', 'PartA2', 'VoteNet', 'H3DNet',
     'CenterPoint', 'SSD3DNet', 'ImVoteNet', 'SingleStageMono3DDetector',
-    'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'CenterPointFusion',
-    'CenterPointDV', 'DynamicMVNet', 'TransFusionDetector', 'DynamicCenterPoint',
+    'FCOSMono3D', 'ImVoxelNet', 'GroupFree3DNet', 'TransFusionDetector', 'DynamicCenterPoint',
     'ISFusionDetector',
 ]
