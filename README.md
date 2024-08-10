@@ -65,8 +65,7 @@ bash tools/run-nus.sh extra-tag
 ```
 To obtain detection results using the pretrained model, run the following command:
 ```
-bash tools/dist_test.sh configs/isfusion/isfusion_0075voxel.py path_to_ckpt_directory 8 --eval bbox
-
+bash tools/dist_test.sh configs/isfusion/isfusion_0075voxel.py path_to_ckpt_directory 1 --eval bbox
 ```
 
 ### Pretrained Models
